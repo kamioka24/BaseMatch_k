@@ -10,6 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BaseMatch_k">
         <activity android:name=".TopActivity"/>
+        <activity android:name=".PlayerTeamIndexActivity"/>
+        <activity android:name=".TeamTeamIndexActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
