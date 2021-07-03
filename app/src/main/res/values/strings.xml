@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">BaseMatch</string>
-    <string name="top_massage">野球しようよ！</string>
+    <string name="launch_massage">野球しようよ！</string>
 
-    <string name="backText">戻る</string>
+    <string name="back_button">戻る</string>
+
+    <string name="player_login">Playerログイン</string>
+    <string name="player_registration">Player新規登録</string>
+    <string name="team_login">Teamログイン</string>
+    <string name="team_registration">Team新規登録</string>
+
 </resources>

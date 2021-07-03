@@ -1,76 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
     tools:context=".TopActivity">
 
-    <RelativeLayout
-        android:id="@+id/topImageArea"
+    <ImageView
+        android:id="@+id/mainImage"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@drawable/top_image_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/mainImage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/app_name"
+        android:textColor="@color/red"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mainImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/mainImage"
+        app:layout_constraintTop_toTopOf="@+id/mainImage" />
 
-        <TextView
-            android:id="@+id/mainTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="@string/app_name"
-            android:textColor="@color/red"
-            android:textSize="36sp"/>
+    <Button
+        android:id="@+id/playerLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_style"
+        android:text="@string/player_login"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/playerLoginButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/button_style"
-            android:text="Playerログイン" />
+    <Button
+        android:id="@+id/teamLoginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_below="@+id/playerLoginButton"
+        android:background="@drawable/button_style"
+        android:text="@string/team_login"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/mainImage"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <Button
-            android:id="@+id/teamLoginButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_below="@+id/playerLoginButton"
-            android:text="Teamログイン"
-            android:background="@drawable/button_style" />
+    <Button
+        android:id="@+id/playerRegistrationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button_style"
+        android:text="@string/player_registration"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/playerRegistrationButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_alignParentRight="true"
-            android:text="Player新規登録"
-            android:background="@drawable/button_style" />
+    <Button
+        android:id="@+id/teamRegistrationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_below="@+id/playerRegistrationButton"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/button_style"
+        android:text="@string/team_registration"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/mainImage"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <Button
-            android:id="@+id/teamRegistrationButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/playerRegistrationButton"
-            android:text="Team新規登録"
-            android:background="@drawable/button_style" />
-
-    </RelativeLayout>
-
-<!--    <ProgressBar-->
+    <!--    <ProgressBar-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->
 <!--        style="?android:attr/progressBarStyle"-->
