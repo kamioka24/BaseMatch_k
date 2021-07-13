@@ -2,6 +2,8 @@ package com.example.basematch_k
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_top.*
 
@@ -33,5 +35,20 @@ class TopActivity : AppCompatActivity() {
             val intent = Intent(this, TeamTeamIndexActivity::class.java)
             startActivity(intent)
         }
+    }
+
+    // オプションメニューを表示させる
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.menu_options_menu_list, menu)
+        return true
+    }
+
+    // オプションメニュー選択時の処理
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        // 戻り値用の変数の初期値を true で設定
+        var returnVal = true
+
+
+        return returnVal
     }
 }
