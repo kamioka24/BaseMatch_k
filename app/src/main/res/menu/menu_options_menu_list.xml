@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/playerItem"
+        android:title="@string/option_player"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/playerRegistrationButton"
+                android:title="@string/player_registration"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/playerLoginButton"
+                android:title="@string/player_login"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/teamItem"
+        android:title="@string/option_team">
+        <menu>
+            <item
+                android:id="@+id/teamRegistrationButton"
+                android:title="@string/team_registration"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/teamLoginButton"
+                android:title="@string/team_login"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

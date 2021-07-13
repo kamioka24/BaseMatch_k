@@ -4,6 +4,9 @@
 
     <string name="back_button">戻る</string>
 
+    <string name="option_player">Player</string>
+    <string name="option_team">Team</string>
+
     <string name="player_login">Playerログイン</string>
     <string name="player_registration">Player新規登録</string>
     <string name="team_login">Teamログイン</string>
