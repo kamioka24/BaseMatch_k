@@ -3,17 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/playerItem"
-        android:title="@string/option_player"
-        app:showAsAction="never">
+        android:title="@string/option_player">
         <menu>
             <item
                 android:id="@+id/playerRegistrationButton"
-                android:title="@string/player_registration"
-                app:showAsAction="never" />
+                android:title="@string/player_registration" />
             <item
                 android:id="@+id/playerLoginButton"
-                android:title="@string/player_login"
-                app:showAsAction="never" />
+                android:title="@string/player_login" />
         </menu>
     </item>
 

@@ -29,57 +29,57 @@
         app:layout_constraintStart_toStartOf="@+id/mainImage"
         app:layout_constraintTop_toTopOf="@+id/mainImage" />
 
-    <Button
-        android:id="@+id/playerLoginButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginStart="8dp"
-        android:background="@drawable/button_style"
-        android:text="@string/player_login"
-        android:textAllCaps="false"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<!--    <Button-->
+<!--        android:id="@+id/playerLoginButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:background="@drawable/button_style"-->
+<!--        android:text="@string/player_login"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <Button
-        android:id="@+id/teamLoginButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="8dp"
-        android:layout_below="@+id/playerLoginButton"
-        android:background="@drawable/button_style"
-        android:text="@string/team_login"
-        android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="@+id/mainImage"
-        app:layout_constraintStart_toStartOf="parent" />
+<!--    <Button-->
+<!--        android:id="@+id/teamLoginButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:layout_marginStart="8dp"-->
+<!--        android:layout_below="@+id/playerLoginButton"-->
+<!--        android:background="@drawable/button_style"-->
+<!--        android:text="@string/team_login"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/mainImage"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
 
-    <Button
-        android:id="@+id/playerRegistrationButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_alignParentEnd="true"
-        android:background="@drawable/button_style"
-        android:text="@string/player_registration"
-        android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+<!--    <Button-->
+<!--        android:id="@+id/playerRegistrationButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:background="@drawable/button_style"-->
+<!--        android:text="@string/player_registration"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
 
-    <Button
-        android:id="@+id/teamRegistrationButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_below="@+id/playerRegistrationButton"
-        android:layout_alignParentEnd="true"
-        android:background="@drawable/button_style"
-        android:text="@string/team_registration"
-        android:textAllCaps="false"
-        app:layout_constraintBottom_toBottomOf="@+id/mainImage"
-        app:layout_constraintEnd_toEndOf="parent" />
+<!--    <Button-->
+<!--        android:id="@+id/teamRegistrationButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_below="@+id/playerRegistrationButton"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:background="@drawable/button_style"-->
+<!--        android:text="@string/team_registration"-->
+<!--        android:textAllCaps="false"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/mainImage"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
 
     <!--    <ProgressBar-->
 <!--        android:layout_width="wrap_content"-->
