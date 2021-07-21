@@ -1,7 +1,8 @@
-package com.example.basematch_k
+package com.example.basematch_k.custom
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
+import com.example.basematch_k.TopActivity
 
 open class CustomActivity : AppCompatActivity() {
 
