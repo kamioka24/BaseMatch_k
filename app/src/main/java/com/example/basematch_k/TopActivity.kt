@@ -7,9 +7,10 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.example.basematch_k.custom.CustomActivity
 import kotlinx.android.synthetic.main.activity_top.*
 
-class TopActivity : AppCompatActivity() {
+class TopActivity : CustomActivity() {
 
     private val playerTeamIndexActivity = PlayerTeamIndexActivity()
     private val teamTeamIndexActivity = TeamTeamIndexActivity()
@@ -35,13 +36,8 @@ class TopActivity : AppCompatActivity() {
             R.id.playerLoginButton -> nextActivity(playerTeamIndexActivity)
             R.id.teamRegistrationButton -> nextActivity(teamTeamIndexActivity)
             R.id.teamLoginButton -> nextActivity(teamTeamIndexActivity)
+            else -> super.onOptionsItemSelected(item)
         }
-
         return returnVal
-    }
-
-    private fun nextActivity(activity: Activity) {
-        val intent = Intent(this, activity::class.java)
-        startActivity(intent)
     }
 }

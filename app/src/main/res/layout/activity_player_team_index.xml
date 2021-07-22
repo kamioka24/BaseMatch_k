@@ -7,15 +7,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".PlayerTeamIndexActivity">
 
-    <Button
-        android:id="@+id/playerTeamBackButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/back_button"
-        android:layout_marginStart="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

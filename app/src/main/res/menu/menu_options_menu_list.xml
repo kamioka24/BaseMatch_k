@@ -28,4 +28,8 @@
                 app:showAsAction="never" />
         </menu>
     </item>
+    <item
+        android:id="@+id/description"
+        android:title="@string/description">
+    </item>
 </menu>
