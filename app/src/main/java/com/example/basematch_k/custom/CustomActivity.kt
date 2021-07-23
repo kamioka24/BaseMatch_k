@@ -6,11 +6,11 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import com.example.basematch_k.TopActivity
 
-open class CustomActivity : AppCompatActivity() {
+/** -------------------------  //
+//   様々な関数を定義しておく場所   //
+//  ------------------------- **/
 
-    /** -------------------------  //
-    //   様々な関数を定義しておく場所   //
-    //  ------------------------- **/
+open class CustomActivity : AppCompatActivity() {
 
     // TopActivity へ戻る
     fun backToTop() {

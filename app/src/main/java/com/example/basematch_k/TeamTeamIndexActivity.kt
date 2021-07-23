@@ -5,6 +5,10 @@ import android.view.MenuItem
 import com.example.basematch_k.custom.CustomActivity
 import kotlinx.android.synthetic.main.activity_team_team_index.*
 
+/** -----------------------  //
+//    チーム用のチーム一覧画面   //
+//  ----------------------- **/
+
 class TeamTeamIndexActivity : CustomActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

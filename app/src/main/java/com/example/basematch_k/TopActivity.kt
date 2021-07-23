@@ -10,6 +10,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.basematch_k.custom.CustomActivity
 import kotlinx.android.synthetic.main.activity_top.*
 
+/** -------------  //
+//     Top画面     //
+//  ------------ **/
+
 class TopActivity : CustomActivity() {
 
     private val playerTeamIndexActivity = PlayerTeamIndexActivity()
