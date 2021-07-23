@@ -1,10 +1,9 @@
-package com.example.basematch_k.custom
+package com.example.basematch_k.Custom
 
 import android.app.Activity
 import android.content.Intent
-import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import com.example.basematch_k.TopActivity
+import com.example.basematch_k.Activity.TopActivity
 
 /** -------------------------  //
 //   様々な関数を定義しておく場所   //

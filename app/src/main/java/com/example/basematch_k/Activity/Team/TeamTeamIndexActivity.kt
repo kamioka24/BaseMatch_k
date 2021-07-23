@@ -1,9 +1,9 @@
-package com.example.basematch_k
+package com.example.basematch_k.Activity.Team
 
 import android.os.Bundle
 import android.view.MenuItem
-import com.example.basematch_k.custom.CustomActivity
-import kotlinx.android.synthetic.main.activity_team_team_index.*
+import com.example.basematch_k.Custom.CustomActivity
+import com.example.basematch_k.R
 
 /** -----------------------  //
 //    チーム用のチーム一覧画面   //

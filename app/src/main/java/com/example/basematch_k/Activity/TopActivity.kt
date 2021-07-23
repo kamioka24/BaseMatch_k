@@ -1,14 +1,12 @@
-package com.example.basematch_k
+package com.example.basematch_k.Activity
 
-import android.app.Activity
-import android.content.Context
-import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import androidx.appcompat.app.AppCompatActivity
-import com.example.basematch_k.custom.CustomActivity
-import kotlinx.android.synthetic.main.activity_top.*
+import com.example.basematch_k.Activity.Player.PlayerTeamIndexActivity
+import com.example.basematch_k.Activity.Team.TeamTeamIndexActivity
+import com.example.basematch_k.Custom.CustomActivity
+import com.example.basematch_k.R
 
 /** -------------  //
 //     Top画面     //
